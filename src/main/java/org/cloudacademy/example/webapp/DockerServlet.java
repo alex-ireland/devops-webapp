@@ -108,5 +108,9 @@ public class DockerServlet extends HttpServlet {
             response.getWriter().println(containerIp);
             break;
         }
+
+        System.out.println("hello");
+        System.out.println("hello");
+        System.out.println("hello");
     }
 }
